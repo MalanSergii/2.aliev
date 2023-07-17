@@ -2,7 +2,7 @@
   "name": "2.aliev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://malansergii.github.io/2.aliev/module1",
+  "homepage": "https://malansergii.github.io/module1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
