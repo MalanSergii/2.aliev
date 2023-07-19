@@ -1,7 +1,11 @@
-// import photoList from "../../data/photoList.json";
+import CardList from './cardList/CardList';
 
 const App = () => {
-    return <div></div>;
+  return (
+    <>
+      <CardList></CardList>
+    </>
+  );
 };
 
 export default App;
