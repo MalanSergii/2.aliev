@@ -1,0 +1,53 @@
+.card{
+  position: relative;
+  display: flex;
+
+  flex-direction: column;
+  flex-basis: 300px;
+
+  margin: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cardInfo{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+
+  flex-grow: 1;
+}
+
+.picture{
+  /* display: flex; */
+}
+
+.online{
+  background-color: green;
+}
+
+.ofline{
+  background-color: red;
+}
+
+.cardLink{
+  position:absolute;
+  top: -25%;
+  text-decoration: none;
+  /* display: block; */
+  /* width: 100%; */
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  /* background-color: black; */
+  color: white;
+}
