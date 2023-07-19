@@ -1,5 +1,7 @@
+// import photoList from "../../data/photoList.json";
+
 const App = () => {
-    return <div className="app">App mod1</div>;
+    return <div></div>;
 };
 
 export default App;
