@@ -1,7 +1,9 @@
-const Card = ({ id, url, title }) => {
+import PropTypes from 'prop-types';
+
+const Card = ({ url, title }) => {
   return (
     <li>
-      <div key={id} className="card mx-auto my-5" style={{ width: '18rem' }}>
+      <div className="card mx-auto my-5" style={{ width: '18rem' }}>
         <img src={url} className="card-img-top" alt={title} />
         <div className="card-body">
           <h5 className="card-title">{title} </h5>
@@ -19,3 +21,8 @@ const Card = ({ id, url, title }) => {
 };
 
 export default Card;
+
+Card.propTypes = {
+  url: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+};
