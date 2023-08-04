@@ -1,6 +1,6 @@
-import Card from 'components/card'
-import PropTypes from 'prop-types'
-import css from './CardList.module.css'
+import Card from 'components/cardList/card';
+import PropTypes from 'prop-types';
+import css from './CardList.module.css';
 
 const CardList = ({ data }) => {
   return (
@@ -15,11 +15,11 @@ const CardList = ({ data }) => {
         ></Card>
       ))}
     </ul>
-  )
-}
+  );
+};
 
-export default CardList
+export default CardList;
 
 CardList.propTypes = {
   data: PropTypes.array,
-}
+};
