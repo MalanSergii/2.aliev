@@ -2,7 +2,8 @@
 
 // import Counter from "./counter/Counter";
 
-import Modal from "./modal/Modal";
+// import Modal from "./modal";
+import ToDoList from "./todoList";
 
 // import data from 'data/photoList.json';
 function App(){
@@ -10,7 +11,8 @@ function App(){
     <>
       {/* <CardList data={data}></CardList> */}
       {/* <Counter></Counter> */}
-      <Modal></Modal>
+        {/* <Modal></Modal> */}
+        <ToDoList></ToDoList>
     </>
   );
 
